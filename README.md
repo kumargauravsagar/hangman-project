@@ -7,4 +7,4 @@ Hangman is a classic word-guessing game where the player tries to guess a word b
 - [Hasrhita Goyal] - Team Leader
 - [Harushi] - Developer
 - [Gaurav Sagar] - Tester
-
+- [Mukund bhardwaj]- Manager
