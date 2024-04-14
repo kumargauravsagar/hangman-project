@@ -1,0 +1,23 @@
+Here is Gaurav(developer) uploded first version of game.
+Here is some description of game 
+import random: This line imports the random module in Python, which is used to generate random numbers and make random selections.
+
+HANGMAN_PICS: This is a list containing ASCII art representations of the hangman at various stages of the game. Each element in the list represents a different stage of the hangman being drawn.
+
+words_list: This is a list containing various words that could be chosen as the secret word in the game. Each word is separated by a space and is represented as a string.
+
+random_words(words): This function takes a list of words as input and returns a random word from that list using the random.randint() function to generate a random index within the range of the list.
+
+display_screen(missed_letters, correct_letters, secret_word): This function is responsible for displaying the game screen. It takes three arguments:
+
+missed_letters: A list containing the letters guessed by the player that are not present in the secret word.
+
+correct_letters: A list containing the letters guessed by the player that are present in the secret word.
+
+secret_word: The secret word that the player needs to guess.
+This function prints the hangman's current state, the missed letters, and the correct guesses so far. It also prints the secret word with underscores representing unguessed letters and the guessed letters revealed.
+
+guess(already_guessed): This function is responsible for taking the player's guess. It ensures that the player enters a single alphabet and that the guess has not already been made. It returns the guessed letter. 
+
+
+Game was complete but there was a mistake as the game was not taking another input letter.
